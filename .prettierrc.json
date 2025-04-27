@@ -16,5 +16,6 @@
   "proseWrap": "always",
   "htmlWhitespaceSensitivity": "ignore",
   "singleAttributePerLine": false,
-  "vueIndentScriptAndStyle": true
+  "vueIndentScriptAndStyle": true,
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"]
 }

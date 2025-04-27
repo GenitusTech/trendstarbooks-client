@@ -1,12 +1,19 @@
 // @ts-check
 import js from '@eslint/js'
-import eslintPrettierConfig from 'eslint-config-prettier/flat'
-import eslintPrettierPlugin from 'eslint-plugin-prettier/recommended'
+import pluginVue from 'eslint-plugin-vue'
+import globals from 'globals'
 import withNuxt from './.nuxt/eslint.config.mjs'
 
 export default withNuxt(
   // Your custom configs here
   js.configs.recommended,
-  eslintPrettierConfig,
-  eslintPrettierPlugin,
+  pluginVue.configs['flat/strongly-recommended'],
+  {
+    files: ['**/*.{ts,vue}'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: globals.browser,
+    },
+  },
 )

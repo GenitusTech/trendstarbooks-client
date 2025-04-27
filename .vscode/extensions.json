@@ -1,8 +1,10 @@
 {
   "recommendations": [
     "editorconfig.editorconfig",
+    "mubaidr.vuejs-extension-pack",
+    "antfu.goto-alias",
+    "gamunu.vscode-yarn",
     "vue.volar",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "bradlc.vscode-tailwindcss"
   ]
 }

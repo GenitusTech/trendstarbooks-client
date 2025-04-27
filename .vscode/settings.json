@@ -1,4 +1,12 @@
 {
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
   "eslint.enable": true,
   "eslint.run": "onSave",
   "eslint.useFlatConfig": true,
@@ -7,14 +15,6 @@
   "prettier.enable": true,
   "prettier.requireConfig": true,
   "prettier.configPath": ".prettierrc.json",
-
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
-  },
 
   "vue.autoInsert.dotValue": true,
   "vue.format.script.initialIndent": true,
